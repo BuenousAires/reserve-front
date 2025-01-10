@@ -1,0 +1,24 @@
+{
+	"compileType": "miniprogram",  // 指定编译类型为小程序
+	"setting": {
+		"coverView": true,// 启用 cover-view 组件
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"enhance": true,
+		"showShadowRootInWxmlPanel": true,
+		"packNpmRelationList": [],
+		"babelSetting": {
+		  "ignore": [],
+		  "disablePlugins": [],
+		  "outputPath": ""
+		},
+		"ignoreUploadUnusedFiles": true
+	},
+	"condition": {},
+	"libVersion": "0.0.1",
+	"packOptions": {
+	  "ignore": [],
+	  "include": []
+	}
+}

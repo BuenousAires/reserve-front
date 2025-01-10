@@ -1,0 +1,57 @@
+@import '~@/uni.scss';
+
+
+page {
+	background-color: #F9FAFA;
+	height: 100%;
+}
+
+page,
+view,
+scroll-view,
+text,
+image,
+textarea,
+button,
+input {
+	box-sizing: border-box;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.flex-column {
+	-ms-flex-direction: column !important;
+	flex-direction: column !important;
+}
+
+.flex-fill {
+	-ms-flex: 1 1 auto !important;
+	flex: 1 1 auto !important;
+}
+
+.just-content-center {
+	justify-content: center;
+}
+
+.w-100 {
+	width: 100% !important;
+}
+
+.wite-card-comm {
+	width: 90%;
+	margin: 0 auto;
+	border-radius: 15px;
+	background-color: #FFFFFF;
+	overflow: hidden;
+}
